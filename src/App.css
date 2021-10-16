@@ -2,37 +2,110 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  border-radius: 16px;
+  padding: 22px;
+  border: 4px solid #1F2937;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.mainHeading {
+  text-align: center;
+  font-size: 25px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.heading {
+  text-align: center;
+  font-size: 25px;
+  margin: 10px 0;
+  color: #F97316;
+  font-weight: bold;
+}
+
+.edit-icon {
+  color: #FACC15;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.del-icon {
+  color: #DC2626;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.view-icon {
+  color: #0369A1;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.detail {
+  margin: 10px 0;
+}
+
+.loadImg {
+  margin-top: 150px;
+  width: 80px;
+  height: 80px
+}
+
+.loadUserImg {
+  padding: 80px
+}
+
+.check-input {
+  margin: 0 5px 10px 6px;
+  cursor: pointer;
+}
+
+.radio-input {
+  margin: 3px;
+  cursor: pointer;
+}
+
+.check-label {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.radio-label {
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.error {
+  font-size: 15px;
+  color: red;
+}
+
+@media screen and (max-width: 1024px) {
+  .sec-hide {
+    display: none
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* @media screen and (max-width: 640px) {
+  .sec-hideTwo {
+    display: none
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
